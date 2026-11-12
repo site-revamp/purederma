@@ -1,0 +1,2234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#447C8D">
+  <meta name="description" content="Explore dermatology, facial and laser treatments at Pure Derma Clinic, Dubai Hills Mall. Contact the clinic to discuss your skin goals and arrange a consultation.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://purederma.ae/">
+  <title>Pure Derma Clinic Dubai | Dermatology, Facials & Laser Treatments</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pure Derma Clinic | The Science of Soft Beauty">
+  <meta property="og:description" content="Dermatology, facial and laser treatments at Dubai Hills Mall. Speak with Pure Derma Clinic about your skin goals.">
+  <meta property="og:url" content="https://purederma.ae/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1600&q=85">
+
+  <style>
+    :root {
+      --color-primary: #447C8D;
+      --color-primary-dark: #285E6D;
+      --color-primary-light: #75A2AC;
+      --color-secondary: #EBBEAF;
+      --color-secondary-dark: #B98272;
+      --color-secondary-light: #F5DCD4;
+      --color-deep: #004651;
+      --color-accent: #C58D79;
+      --color-heading: #12343B;
+      --color-text: #33474A;
+      --color-muted: #687C7E;
+      --color-background: #F8F7F4;
+      --color-background-alt: #EEF3F2;
+      --color-surface: #FFFFFF;
+      --color-surface-alt: #F8EDE8;
+      --color-border: #DCE5E3;
+      --color-border-strong: #A8BFBE;
+      --color-interactive: #447C8D;
+      --color-hover: #285E6D;
+      --color-focus: #004651;
+
+      --font-display: "Cormorant Garamond", Georgia, serif;
+      --font-body: "DM Sans", Arial, sans-serif;
+
+      --container: 1240px;
+      --gutter: clamp(22px, 5vw, 76px);
+      --section-space: clamp(82px, 10vw, 142px);
+      --radius-large: 34px;
+      --radius-medium: 20px;
+      --shadow-soft: 0 24px 70px rgba(18, 52, 59, .09);
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      margin: 0;
+      color: var(--color-text);
+      background: var(--color-background);
+      font-family: var(--font-body);
+      font-size: 17px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    button,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button:focus-visible,
+    a:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    textarea:focus-visible,
+    summary:focus-visible {
+      outline: 3px solid var(--color-focus);
+      outline-offset: 4px;
+    }
+
+    .container {
+      width: min(100% - (var(--gutter) * 2), var(--container));
+      margin-inline: auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 20px;
+      color: var(--color-primary-dark);
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: .15em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      width: 28px;
+      height: 1px;
+      background: var(--color-accent);
+      content: "";
+    }
+
+    .display-title {
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-display);
+      font-size: clamp(48px, 6.2vw, 82px);
+      font-weight: 500;
+      letter-spacing: -.045em;
+      line-height: .99;
+    }
+
+    .section-title {
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-display);
+      font-size: clamp(40px, 4.5vw, 62px);
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.04;
+    }
+
+    .section-copy {
+      max-width: 620px;
+      margin: 22px 0 0;
+      color: var(--color-muted);
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 56px;
+      align-items: center;
+      justify-content: center;
+      gap: 13px;
+      padding: 14px 25px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.25;
+      transition: background .25s ease, color .25s ease, border-color .25s ease, transform .25s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      color: #fff;
+      background: var(--color-primary);
+    }
+
+    .button-primary:hover {
+      background: var(--color-primary-dark);
+    }
+
+    .button-dark {
+      color: #fff;
+      background: var(--color-deep);
+    }
+
+    .button-dark:hover {
+      background: var(--color-primary-dark);
+    }
+
+    .button-outline {
+      color: var(--color-heading);
+      border-color: var(--color-border-strong);
+      background: transparent;
+    }
+
+    .button-outline:hover {
+      border-color: var(--color-primary);
+      background: var(--color-background-alt);
+    }
+
+    .button-light {
+      color: var(--color-deep);
+      background: #fff;
+    }
+
+    .button-light:hover {
+      background: var(--color-secondary-light);
+    }
+
+    .button-arrow {
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    /* Header */
+    .topline {
+      color: rgba(255,255,255,.9);
+      background: var(--color-deep);
+      font-size: 15px;
+    }
+
+    .topline-inner {
+      display: flex;
+      min-height: 40px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .topline a:hover {
+      color: var(--color-secondary);
+    }
+
+    .topline-contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+    }
+
+    .site-header {
+      position: sticky;
+      z-index: 100;
+      top: 0;
+      border-bottom: 1px solid rgba(220,229,227,.8);
+      background: rgba(248,247,244,.94);
+      backdrop-filter: blur(18px);
+    }
+
+    .nav-wrap {
+      display: flex;
+      min-height: 88px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      display: inline-flex;
+      flex: 0 0 auto;
+      flex-direction: column;
+      color: var(--color-deep);
+      line-height: 1;
+    }
+
+    .brand-name {
+      font-family: var(--font-display);
+      font-size: 38px;
+      font-weight: 600;
+      letter-spacing: -.04em;
+    }
+
+    .brand-subtitle {
+      margin-top: 7px;
+      color: var(--color-muted);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .23em;
+      text-transform: uppercase;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: clamp(18px, 2.4vw, 34px);
+    }
+
+    .main-nav a {
+      color: var(--color-heading);
+      font-size: 15px;
+      font-weight: 600;
+      transition: color .2s ease;
+    }
+
+    .main-nav a:hover {
+      color: var(--color-primary);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-actions .button {
+      min-height: 48px;
+      padding: 12px 20px;
+      font-size: 15px;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 48px;
+      height: 48px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--color-border);
+      border-radius: 50%;
+      color: var(--color-deep);
+      background: transparent;
+      cursor: pointer;
+      font-size: 23px;
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: clamp(52px, 7vw, 100px) 0 88px;
+      background:
+        radial-gradient(circle at 4% 10%, rgba(235,190,175,.25), transparent 30%),
+        linear-gradient(120deg, #F8F7F4 0%, #F2F5F2 58%, #EAF1EF 100%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+      align-items: center;
+      gap: clamp(42px, 7vw, 100px);
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 2;
+      padding-block: 22px;
+    }
+
+    .hero h1 {
+      max-width: 650px;
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-display);
+      font-size: clamp(58px, 7.2vw, 96px);
+      font-weight: 500;
+      letter-spacing: -.055em;
+      line-height: .91;
+    }
+
+    .hero h1 em {
+      color: var(--color-primary);
+      font-weight: 500;
+    }
+
+    .hero-description {
+      max-width: 520px;
+      margin: 28px 0 0;
+      color: var(--color-muted);
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 34px;
+    }
+
+    .hero-note {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 34px;
+      color: var(--color-muted);
+      font-size: 15px;
+    }
+
+    .hero-note-mark {
+      display: inline-grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      border: 1px solid var(--color-border-strong);
+      border-radius: 50%;
+      color: var(--color-primary-dark);
+      font-size: 17px;
+    }
+
+    .hero-visual {
+      position: relative;
+      min-height: 620px;
+    }
+
+    .hero-image-main {
+      position: absolute;
+      inset: 0 8% 6% 10%;
+      overflow: hidden;
+      border-radius: 48% 48% 8px 8px;
+      background: #D9E4E1;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-image-main img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .hero-image-accent {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 37%;
+      height: 38%;
+      overflow: hidden;
+      border: 9px solid var(--color-background);
+      border-radius: 48% 48% 8px 8px;
+      background: var(--color-secondary-light);
+    }
+
+    .hero-image-accent img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-stamp {
+      position: absolute;
+      top: 12%;
+      left: 0;
+      display: grid;
+      width: 118px;
+      height: 118px;
+      place-items: center;
+      border: 1px solid rgba(0,70,81,.2);
+      border-radius: 50%;
+      color: var(--color-deep);
+      background: rgba(248,247,244,.9);
+      font-family: var(--font-display);
+      font-size: 22px;
+      line-height: 1.05;
+      text-align: center;
+      transform: rotate(-10deg);
+    }
+
+    .hero-index {
+      position: absolute;
+      right: 3%;
+      top: 5%;
+      color: rgba(0,70,81,.18);
+      font-family: var(--font-display);
+      font-size: clamp(70px, 10vw, 150px);
+      line-height: 1;
+    }
+
+    /* Proof ribbon */
+    .proof-ribbon {
+      padding: 24px 0;
+      color: #fff;
+      background: var(--color-deep);
+    }
+
+    .proof-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+
+    .proof-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 13px;
+      color: rgba(255,255,255,.92);
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .proof-symbol {
+      color: var(--color-secondary);
+      font-family: var(--font-display);
+      font-size: 27px;
+      line-height: 1;
+    }
+
+    /* Introduction */
+    .intro-section {
+      position: relative;
+      overflow: hidden;
+      padding: var(--section-space) 0;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: .82fr 1.18fr;
+      gap: clamp(45px, 8vw, 120px);
+      align-items: start;
+    }
+
+    .intro-aside {
+      padding-top: 12px;
+    }
+
+    .intro-aside p {
+      max-width: 340px;
+      margin: 25px 0 0;
+      color: var(--color-muted);
+      font-size: 17px;
+    }
+
+    .intro-main {
+      position: relative;
+      padding: 15px 0 0 35px;
+      border-left: 1px solid var(--color-border-strong);
+    }
+
+    .intro-main p {
+      max-width: 700px;
+      margin: 0 0 20px;
+      color: var(--color-text);
+      font-size: 19px;
+      line-height: 1.8;
+    }
+
+    .intro-main p:last-child {
+      margin-bottom: 0;
+    }
+
+    .intro-main strong {
+      color: var(--color-primary-dark);
+      font-weight: 700;
+    }
+
+    /* Services and six icons */
+    .services-section {
+      position: relative;
+      overflow: hidden;
+      padding: var(--section-space) 0;
+      background: var(--color-background-alt);
+    }
+
+    .services-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 35px;
+      margin-bottom: 54px;
+    }
+
+    .services-heading .section-copy {
+      max-width: 430px;
+      margin-top: 0;
+    }
+
+    .service-icon-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1px;
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+      background: var(--color-border);
+    }
+
+    .service-icon-item {
+      min-height: 230px;
+      padding: 34px 30px;
+      background: var(--color-background);
+      transition: background .25s ease;
+    }
+
+    .service-icon-item:hover {
+      background: #fff;
+    }
+
+    .service-icon {
+      display: grid;
+      width: 66px;
+      height: 66px;
+      place-items: center;
+      border: 1px solid var(--color-border-strong);
+      border-radius: 50%;
+      color: var(--color-primary-dark);
+      background: #fff;
+    }
+
+    .service-icon svg {
+      width: 34px;
+      height: 34px;
+      fill: none;
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 1.5;
+    }
+
+    .service-icon-item h3 {
+      margin: 24px 0 8px;
+      color: var(--color-heading);
+      font-family: var(--font-display);
+      font-size: 29px;
+      font-weight: 600;
+      line-height: 1.1;
+    }
+
+    .service-icon-item p {
+      max-width: 330px;
+      margin: 0;
+      color: var(--color-muted);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .service-feature {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: clamp(35px, 6vw, 80px);
+      align-items: center;
+      margin-top: 80px;
+    }
+
+    .service-feature-visual {
+      position: relative;
+      min-height: 510px;
+      overflow: hidden;
+      border-radius: 46% 46% 8px 8px;
+      background: var(--color-secondary-light);
+    }
+
+    .service-feature-visual img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .service-feature-copy {
+      padding: 20px 0;
+    }
+
+    .service-feature-copy h3 {
+      max-width: 520px;
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-display);
+      font-size: clamp(40px, 4.2vw, 58px);
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.03;
+    }
+
+    .service-feature-copy p {
+      margin: 22px 0 0;
+      color: var(--color-muted);
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    .treatment-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 22px;
+      margin: 28px 0 34px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .treatment-list li {
+      position: relative;
+      padding-left: 18px;
+      color: var(--color-heading);
+      font-size: 16px;
+    }
+
+    .treatment-list li::before {
+      position: absolute;
+      top: 11px;
+      left: 0;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--color-accent);
+      content: "";
+    }
+
+    /* Three service pathways */
+    .pathways-section {
+      padding: var(--section-space) 0;
+      background: var(--color-background);
+    }
+
+    .pathways-intro {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 40px;
+      margin-bottom: 54px;
+    }
+
+    .pathways-intro .section-copy {
+      max-width: 420px;
+      margin: 0;
+    }
+
+    .pathway-list {
+      border-top: 1px solid var(--color-border-strong);
+    }
+
+    .pathway {
+      display: grid;
+      grid-template-columns: 90px minmax(0, .9fr) minmax(0, 1.1fr) 50px;
+      align-items: center;
+      gap: 28px;
+      padding: 34px 0;
+      border-bottom: 1px solid var(--color-border-strong);
+      transition: padding .25s ease;
+    }
+
+    .pathway:hover {
+      padding-inline: 12px;
+    }
+
+    .pathway-number {
+      color: var(--color-accent);
+      font-family: var(--font-display);
+      font-size: 32px;
+    }
+
+    .pathway h3 {
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-display);
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 1.1;
+    }
+
+    .pathway p {
+      max-width: 500px;
+      margin: 0;
+      color: var(--color-muted);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .pathway-link {
+      display: grid;
+      width: 46px;
+      height: 46px;
+      place-items: center;
+      border: 1px solid var(--color-border-strong);
+      border-radius: 50%;
+      color: var(--color-primary-dark);
+      font-size: 23px;
+      transition: color .2s ease, background .2s ease;
+    }
+
+    .pathway-link:hover {
+      color: #fff;
+      background: var(--color-primary);
+    }
+
+    /* Philosophy */
+    .philosophy-section {
+      position: relative;
+      overflow: hidden;
+      padding: var(--section-space) 0;
+      color: #fff;
+      background: var(--color-deep);
+    }
+
+    .philosophy-section::before {
+      position: absolute;
+      top: -220px;
+      right: -130px;
+      width: 600px;
+      height: 600px;
+      border: 1px solid rgba(235,190,175,.2);
+      border-radius: 50%;
+      box-shadow: 0 0 0 55px rgba(235,190,175,.035), 0 0 0 110px rgba(235,190,175,.025);
+      content: "";
+    }
+
+    .philosophy-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: clamp(45px, 9vw, 130px);
+      align-items: center;
+    }
+
+    .philosophy-section .eyebrow {
+      color: var(--color-secondary);
+    }
+
+    .philosophy-section .section-title {
+      color: #fff;
+    }
+
+    .philosophy-copy {
+      max-width: 620px;
+      color: rgba(255,255,255,.76);
+      font-size: 18px;
+      line-height: 1.85;
+    }
+
+    .philosophy-copy p {
+      margin: 0 0 20px;
+    }
+
+    .philosophy-copy p:last-child {
+      margin-bottom: 0;
+    }
+
+    .philosophy-signature {
+      display: inline-block;
+      margin-top: 24px;
+      color: var(--color-secondary);
+      font-family: var(--font-display);
+      font-size: 32px;
+      font-style: italic;
+    }
+
+    /* Consultation steps */
+    .journey-section {
+      padding: var(--section-space) 0;
+      background: var(--color-surface-alt);
+    }
+
+    .journey-header {
+      max-width: 720px;
+      margin-bottom: 55px;
+    }
+
+    .journey-steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 35px;
+    }
+
+    .journey-step {
+      position: relative;
+      padding-top: 25px;
+      border-top: 1px solid var(--color-border-strong);
+    }
+
+    .journey-step span {
+      color: var(--color-secondary-dark);
+      font-family: var(--font-display);
+      font-size: 34px;
+    }
+
+    .journey-step h3 {
+      margin: 20px 0 10px;
+      color: var(--color-heading);
+      font-family: var(--font-display);
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .journey-step p {
+      margin: 0;
+      color: var(--color-muted);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    /* Clinic location */
+    .location-section {
+      padding: var(--section-space) 0;
+    }
+
+    .location-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(40px, 7vw, 100px);
+      align-items: center;
+    }
+
+    .location-visual {
+      position: relative;
+      min-height: 440px;
+      overflow: hidden;
+      border-radius: var(--radius-large);
+      background: var(--color-background-alt);
+    }
+
+    .location-visual img {
+      width: 100%;
+      height: 100%;
+      min-height: 440px;
+      object-fit: cover;
+    }
+
+    .location-copy h2 {
+      max-width: 520px;
+    }
+
+    .location-copy > p {
+      margin: 22px 0;
+      color: var(--color-muted);
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    .location-details {
+      display: grid;
+      gap: 20px;
+      margin: 30px 0;
+      padding-top: 25px;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .location-detail {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 15px;
+      font-size: 16px;
+    }
+
+    .location-detail strong {
+      color: var(--color-heading);
+    }
+
+    .location-detail span {
+      color: var(--color-muted);
+    }
+
+    /* FAQ */
+    .faq-section {
+      padding: var(--section-space) 0;
+      background: var(--color-background-alt);
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: clamp(45px, 8vw, 110px);
+    }
+
+    .faq-list {
+      border-top: 1px solid var(--color-border-strong);
+    }
+
+    .faq-list details {
+      border-bottom: 1px solid var(--color-border-strong);
+    }
+
+    .faq-list summary {
+      position: relative;
+      padding: 23px 42px 23px 0;
+      color: var(--color-heading);
+      cursor: pointer;
+      font-size: 17px;
+      font-weight: 700;
+      list-style: none;
+    }
+
+    .faq-list summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-list summary::after {
+      position: absolute;
+      top: 20px;
+      right: 4px;
+      color: var(--color-primary);
+      font-size: 24px;
+      font-weight: 400;
+      content: "+";
+    }
+
+    .faq-list details[open] summary::after {
+      content: "−";
+    }
+
+    .faq-answer {
+      max-width: 650px;
+      padding: 0 30px 23px 0;
+      color: var(--color-muted);
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    .faq-answer p {
+      margin: 0;
+    }
+
+    /* Contact */
+    .contact-section {
+      position: relative;
+      overflow: hidden;
+      padding: var(--section-space) 0;
+      color: #fff;
+      background: var(--color-primary-dark);
+    }
+
+    .contact-section::after {
+      position: absolute;
+      right: -160px;
+      bottom: -340px;
+      width: 600px;
+      height: 600px;
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 50%;
+      box-shadow: 0 0 0 65px rgba(255,255,255,.04), 0 0 0 130px rgba(255,255,255,.025);
+      content: "";
+    }
+
+    .contact-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      gap: clamp(40px, 8vw, 110px);
+    }
+
+    .contact-section .eyebrow {
+      color: var(--color-secondary);
+    }
+
+    .contact-section .section-title {
+      color: #fff;
+    }
+
+    .contact-copy > p {
+      max-width: 500px;
+      margin: 24px 0 30px;
+      color: rgba(255,255,255,.78);
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    .contact-links {
+      display: grid;
+      gap: 14px;
+    }
+
+    .contact-links a {
+      width: fit-content;
+      color: #fff;
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+    .contact-links a:hover {
+      color: var(--color-secondary);
+    }
+
+    .contact-form {
+      padding: clamp(26px, 4vw, 44px);
+      border-radius: var(--radius-medium);
+      color: var(--color-text);
+      background: var(--color-surface);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .contact-form h3 {
+      margin: 0 0 8px;
+      color: var(--color-heading);
+      font-family: var(--font-display);
+      font-size: 34px;
+      font-weight: 600;
+    }
+
+    .contact-form > p {
+      margin: 0 0 25px;
+      color: var(--color-muted);
+      font-size: 16px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .form-field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .form-field.full {
+      grid-column: 1 / -1;
+    }
+
+    .form-field label {
+      color: var(--color-heading);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .form-field input,
+    .form-field select,
+    .form-field textarea {
+      width: 100%;
+      min-height: 52px;
+      padding: 12px 14px;
+      border: 1px solid var(--color-border-strong);
+      border-radius: 10px;
+      color: var(--color-heading);
+      background: #fff;
+      font-size: 16px;
+    }
+
+    .form-field textarea {
+      min-height: 118px;
+      resize: vertical;
+    }
+
+    .form-submit {
+      width: 100%;
+      margin-top: 22px;
+      border: 0;
+    }
+
+    .form-note {
+      margin: 14px 0 0;
+      color: var(--color-muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    .site-footer {
+      padding: 52px 0 35px;
+      color: rgba(255,255,255,.78);
+      background: #12343B;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 35px;
+      padding-bottom: 42px;
+      border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+
+    .footer-brand .brand-name {
+      color: #fff;
+    }
+
+    .footer-brand .brand-subtitle {
+      color: rgba(255,255,255,.62);
+    }
+
+    .footer-brand p {
+      max-width: 370px;
+      margin: 20px 0 0;
+      color: rgba(255,255,255,.68);
+      font-size: 16px;
+    }
+
+    .footer-nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: start;
+      gap: 16px 25px;
+    }
+
+    .footer-nav a {
+      color: rgba(255,255,255,.84);
+      font-size: 15px;
+    }
+
+    .footer-nav a:hover {
+      color: var(--color-secondary);
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding-top: 25px;
+      color: rgba(255,255,255,.58);
+      font-size: 15px;
+    }
+
+    /* Mobile conversion bar */
+    .mobile-cta {
+      display: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 1080px) {
+      .main-nav {
+        gap: 16px;
+      }
+
+      .main-nav a {
+        font-size: 15px;
+      }
+
+      .hero-grid {
+        gap: 38px;
+      }
+
+      .hero-visual {
+        min-height: 540px;
+      }
+    }
+
+    @media (max-width: 860px) {
+      :root {
+        --gutter: 25px;
+        --section-space: 88px;
+      }
+
+      .topline-inner {
+        justify-content: center;
+      }
+
+      .topline-contact {
+        justify-content: center;
+      }
+
+      .topline-location {
+        display: none;
+      }
+
+      .nav-wrap {
+        min-height: 76px;
+      }
+
+      .menu-toggle {
+        display: inline-flex;
+      }
+
+      .nav-actions > .button {
+        display: none;
+      }
+
+      .main-nav {
+        position: fixed;
+        top: 76px;
+        right: 0;
+        left: 0;
+        display: flex;
+        visibility: hidden;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 14px var(--gutter) 30px;
+        border-bottom: 1px solid var(--color-border);
+        background: var(--color-background);
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity .2s ease, transform .2s ease, visibility .2s ease;
+      }
+
+      .main-nav.is-open {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .main-nav a {
+        padding: 15px 0;
+        border-bottom: 1px solid var(--color-border);
+        font-size: 17px;
+      }
+
+      .hero-grid,
+      .intro-grid,
+      .service-feature,
+      .philosophy-grid,
+      .location-grid,
+      .faq-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-copy {
+        max-width: 700px;
+      }
+
+      .hero-visual {
+        min-height: 620px;
+      }
+
+      .intro-grid {
+        gap: 30px;
+      }
+
+      .intro-aside p {
+        max-width: 620px;
+      }
+
+      .intro-main {
+        margin-left: 5px;
+      }
+
+      .services-heading,
+      .pathways-intro {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .services-heading .section-copy,
+      .pathways-intro .section-copy {
+        max-width: 650px;
+      }
+
+      .service-feature-visual {
+        min-height: 480px;
+      }
+
+      .philosophy-grid {
+        gap: 28px;
+      }
+
+      .location-visual {
+        order: 2;
+      }
+
+      .contact-grid {
+        gap: 42px;
+      }
+
+      .mobile-cta {
+        position: fixed;
+        z-index: 150;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 12px var(--gutter) calc(12px + env(safe-area-inset-bottom));
+        border-top: 1px solid var(--color-border);
+        background: rgba(248,247,244,.97);
+        box-shadow: 0 -10px 30px rgba(18,52,59,.08);
+        backdrop-filter: blur(16px);
+      }
+
+      .mobile-cta .button {
+        min-height: 52px;
+        padding: 12px 10px;
+        font-size: 15px;
+      }
+
+      body {
+        padding-bottom: 84px;
+      }
+
+      .site-footer {
+        padding-bottom: 45px;
+      }
+    }
+
+    @media (max-width: 620px) {
+      :root {
+        --gutter: 20px;
+        --section-space: 76px;
+      }
+
+      body {
+        font-size: 16px;
+      }
+
+      .topline {
+        font-size: 15px;
+      }
+
+      .topline-inner {
+        min-height: 38px;
+      }
+
+      .topline-contact {
+        gap: 16px;
+      }
+
+      .brand-name {
+        font-size: 34px;
+      }
+
+      .brand-subtitle {
+        font-size: 10px;
+      }
+
+      .hero {
+        padding-top: 52px;
+        padding-bottom: 62px;
+      }
+
+      .hero h1 {
+        font-size: clamp(54px, 15vw, 72px);
+      }
+
+      .hero-description {
+        font-size: 17px;
+      }
+
+      .hero-actions {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .hero-actions .button {
+        width: 100%;
+      }
+
+      .hero-visual {
+        min-height: 440px;
+      }
+
+      .hero-image-main {
+        inset: 0 7% 7% 8%;
+      }
+
+      .hero-image-accent {
+        width: 39%;
+        height: 36%;
+        border-width: 6px;
+      }
+
+      .hero-stamp {
+        width: 90px;
+        height: 90px;
+        font-size: 18px;
+      }
+
+      .hero-index {
+        font-size: 76px;
+      }
+
+      .proof-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .proof-item {
+        justify-content: flex-start;
+        text-align: left;
+      }
+
+      .display-title {
+        font-size: 54px;
+      }
+
+      .section-title {
+        font-size: 44px;
+      }
+
+      .section-copy {
+        font-size: 17px;
+      }
+
+      .intro-main {
+        padding-left: 22px;
+      }
+
+      .intro-main p {
+        font-size: 17px;
+      }
+
+      .service-icon-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .service-icon-item {
+        min-height: 220px;
+        padding: 24px 18px;
+      }
+
+      .service-icon {
+        width: 58px;
+        height: 58px;
+      }
+
+      .service-icon-item h3 {
+        font-size: 26px;
+      }
+
+      .service-icon-item p {
+        font-size: 15px;
+      }
+
+      .service-feature {
+        margin-top: 58px;
+      }
+
+      .service-feature-visual {
+        min-height: 390px;
+      }
+
+      .service-feature-copy h3 {
+        font-size: 44px;
+      }
+
+      .treatment-list {
+        grid-template-columns: 1fr;
+      }
+
+      .pathway {
+        grid-template-columns: 42px 1fr 42px;
+        gap: 12px;
+        padding: 25px 0;
+      }
+
+      .pathway-number {
+        font-size: 25px;
+      }
+
+      .pathway h3 {
+        font-size: 29px;
+      }
+
+      .pathway p {
+        grid-column: 2 / 3;
+        grid-row: 2;
+        font-size: 15px;
+      }
+
+      .pathway-link {
+        grid-column: 3;
+        grid-row: 1;
+        width: 40px;
+        height: 40px;
+      }
+
+      .journey-steps {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+
+      .journey-step {
+        padding-top: 18px;
+      }
+
+      .location-visual,
+      .location-visual img {
+        min-height: 330px;
+      }
+
+      .location-detail {
+        grid-template-columns: 1fr;
+        gap: 3px;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .form-field.full {
+        grid-column: auto;
+      }
+
+      .contact-form {
+        padding: 24px 20px;
+      }
+
+      .footer-top,
+      .footer-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .footer-nav {
+        gap: 14px 20px;
+      }
+
+      .mobile-cta {
+        padding-inline: 14px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Pure Derma Clinic",
+    "url": "https://purederma.ae/",
+    "telephone": "+97145797700",
+    "email": "info@purederma.ae",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Dubai Hills Mall, First Floor (Storm Coaster Parking)",
+      "addressLocality": "Dubai",
+      "addressCountry": "AE"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "10:00",
+        "closes": "22:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Friday", "Saturday"],
+        "opens": "10:00",
+        "closes": "00:00"
+      }
+    ],
+    "medicalSpecialty": "Dermatology"
+  }
+  </script>
+</head>
+
+<body>
+  <div class="topline">
+    <div class="container topline-inner">
+      <div class="topline-contact">
+        <a href="tel:+97145797700">+971 4 579 7700</a>
+        <a href="https://wa.me/971504185150" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="mailto:info@purederma.ae">info@purederma.ae</a>
+      </div>
+      <span class="topline-location">Dubai Hills Mall · Dubai, UAE</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Pure Derma Clinic home">
+        <span class="brand-name">pure derma</span>
+        <span class="brand-subtitle">Dermatology · Aesthetics</span>
+      </a>
+
+      <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#approach">Our approach</a>
+        <a href="#services">Treatments</a>
+        <a href="#journey">Your visit</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="button button-primary" href="#contact">Arrange a consultation <span class="button-arrow">↗</span></a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
+          <span aria-hidden="true">☰</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Dermatology · Skin · Aesthetics</p>
+          <h1>Healthy skin.<br><em>Thoughtful care.</em></h1>
+          <p class="hero-description">
+            Discover dermatology, facial and laser treatments at Pure Derma Clinic.
+            Start with a conversation about your skin goals and explore the care
+            options that may be right for you.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Arrange a consultation <span class="button-arrow">↗</span></a>
+            <a class="button button-outline" href="#services">Explore treatments <span class="button-arrow">↓</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="hero-note-mark" aria-hidden="true">✳</span>
+            <span>Located at Dubai Hills Mall, Dubai</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Editorial skincare photography">
+          <span class="hero-index" aria-hidden="true">01</span>
+          <div class="hero-image-main">
+            <img
+              src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1300&q=85"
+              alt="Relaxing professional facial skincare treatment"
+              fetchpriority="high">
+          </div>
+          <div class="hero-image-accent">
+            <img
+              src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=650&q=85"
+              alt="Skincare and facial care detail"
+              loading="lazy">
+          </div>
+          <div class="hero-stamp" aria-hidden="true">The art<br>of skin<br>care</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-ribbon" aria-label="Clinic highlights">
+      <div class="container proof-grid">
+        <div class="proof-item"><span class="proof-symbol">✳</span><span>Dermatology-led care</span></div>
+        <div class="proof-item"><span class="proof-symbol">◌</span><span>Facial and skin treatments</span></div>
+        <div class="proof-item"><span class="proof-symbol">⌁</span><span>Laser treatment options</span></div>
+      </div>
+    </section>
+
+    <section class="intro-section" id="approach">
+      <div class="container intro-grid">
+        <div class="intro-aside">
+          <p class="eyebrow">A considered approach</p>
+          <h2 class="section-title">Your skin is<br>personal.</h2>
+          <p>
+            Your concerns, preferences and treatment goals deserve a conversation
+            before a treatment decision.
+          </p>
+        </div>
+        <div class="intro-main">
+          <p>
+            At <strong>Pure Derma Clinic</strong>, dermatology and aesthetic
+            treatments come together in a setting designed around skin health,
+            personal care and confidence.
+          </p>
+          <p>
+            Whether you are exploring a facial, looking for support with a skin
+            concern or considering a laser treatment, the first step is to
+            understand what you would like to address.
+          </p>
+          <p>
+            Explore the clinic's treatment areas below, then contact the team
+            to discuss suitability and the next step for your individual needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="services-heading">
+          <div>
+            <p class="eyebrow">Explore your options</p>
+            <h2 class="section-title">Care for different<br>skin goals.</h2>
+          </div>
+          <p class="section-copy">
+            From dermatology and skin rejuvenation to facial and laser treatments,
+            explore the clinic's core areas of care.
+          </p>
+        </div>
+
+        <!-- Exactly six custom SVG icons, displayed in two rows of three. -->
+        <div class="service-icon-grid">
+          <article class="service-icon-item">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <path d="M20 5c-7 0-12 5-12 12 0 9 12 18 12 18s12-9 12-18C32 10 27 5 20 5Z"/>
+                <path d="M14 19c2-3 4-4 6-4s4 1 6 4M16 24c2 2 6 2 8 0"/>
+                <path d="M20 10v3"/>
+              </svg>
+            </div>
+            <h3>Skin health</h3>
+            <p>Explore dermatology care for a range of skin concerns and conditions.</p>
+          </article>
+
+          <article class="service-icon-item">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <path d="M8 24c4-8 8-12 12-12s8 4 12 12"/>
+                <path d="M10 25c3 5 7 8 10 8s7-3 10-8"/>
+                <path d="M20 5v4M7 12l3 3M33 12l-3 3"/>
+                <path d="M15 24h10"/>
+              </svg>
+            </div>
+            <h3>Facial care</h3>
+            <p>Facial treatments and skin-focused options tailored to different goals.</p>
+          </article>
+
+          <article class="service-icon-item">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <path d="M20 5c-6 7-10 12-10 18a10 10 0 0 0 20 0c0-6-4-11-10-18Z"/>
+                <path d="M15 25c1 3 3 4 5 4"/>
+                <path d="M25 17l-3 5h4l-3 5"/>
+              </svg>
+            </div>
+            <h3>Skin boosters</h3>
+            <p>Ask about skin booster treatments and their suitability for your needs.</p>
+          </article>
+
+          <article class="service-icon-item">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <circle cx="20" cy="20" r="13"/>
+                <circle cx="20" cy="20" r="7"/>
+                <path d="M20 2v5M20 33v5M2 20h5M33 20h5"/>
+                <path d="m20 13 2 7-2 7-2-7 2-7Z"/>
+              </svg>
+            </div>
+            <h3>Laser treatments</h3>
+            <p>Explore laser options for hair reduction, tattoo removal and skin concerns.</p>
+          </article>
+
+          <article class="service-icon-item">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <path d="M20 5 23 15 33 18 23 21 20 32 17 21 7 18 17 15 20 5Z"/>
+                <path d="m31 5 1 4 4 1-4 1-1 4-1-4-4-1 4-1 1-4Z"/>
+                <path d="m8 27 1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3Z"/>
+              </svg>
+            </div>
+            <h3>Skin rejuvenation</h3>
+            <p>Discuss treatment options focused on texture, tone and skin appearance.</p>
+          </article>
+
+          <article class="service-icon-item">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40">
+                <path d="M11 32V18c0-7 4-12 9-12s9 5 9 12v14"/>
+                <path d="M15 18c1-3 3-4 5-4s4 1 5 4"/>
+                <path d="M15 25c2 2 8 2 10 0"/>
+                <path d="M7 32h26"/>
+              </svg>
+            </div>
+            <h3>Hair concerns</h3>
+            <p>Ask the clinic about dermatology-led options for selected hair concerns.</p>
+          </article>
+        </div>
+
+        <div class="service-feature">
+          <div class="service-feature-visual">
+            <img
+              src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=1100&q=85"
+              alt="Calm treatment room with professional skincare setting"
+              loading="lazy">
+          </div>
+          <div class="service-feature-copy">
+            <p class="eyebrow">Treatment, not guesswork</p>
+            <h3>Start with the concern. Explore the right conversation.</h3>
+            <p>
+              Pure Derma's published treatment range includes dermatology,
+              facial and laser options. A consultation can help you understand
+              which options may be appropriate for your concern.
+            </p>
+            <ul class="treatment-list">
+              <li>Hydrafacial</li>
+              <li>Dermapen and mesotherapy</li>
+              <li>Chemical peels</li>
+              <li>Skin boosters</li>
+              <li>Dermal fillers</li>
+              <li>Microneedling</li>
+              <li>Laser hair removal</li>
+              <li>Tattoo removal</li>
+            </ul>
+            <a class="button button-primary" href="https://purederma.ae/service/dermatology/">View dermatology services <span class="button-arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pathways-section">
+      <div class="container">
+        <div class="pathways-intro">
+          <div>
+            <p class="eyebrow">Find your treatment area</p>
+            <h2 class="section-title">A clearer way<br>to explore.</h2>
+          </div>
+          <p class="section-copy">
+            Choose the area closest to what you are looking for. You can then
+            review the clinic's published treatment information.
+          </p>
+        </div>
+
+        <div class="pathway-list">
+          <a class="pathway" href="https://purederma.ae/service/dermatology/">
+            <span class="pathway-number">01</span>
+            <h3>Dermatology</h3>
+            <p>Skin conditions, skin boosters, dermal fillers, microneedling and other dermatology-related treatments.</p>
+            <span class="pathway-link" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="pathway" href="https://purederma.ae/service/facial/">
+            <span class="pathway-number">02</span>
+            <h3>Facial treatments</h3>
+            <p>Hydrafacial, Dermapen, mesotherapy and chemical peel options.</p>
+            <span class="pathway-link" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="pathway" href="https://purederma.ae/service/laser/">
+            <span class="pathway-number">03</span>
+            <h3>Laser treatments</h3>
+            <p>Explore laser hair removal, tattoo removal, skin rejuvenation and Soft Light treatment.</p>
+            <span class="pathway-link" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="philosophy-section">
+      <div class="container philosophy-grid">
+        <div>
+          <p class="eyebrow">The Pure Derma approach</p>
+          <h2 class="section-title">A thoughtful balance of science and self-confidence.</h2>
+        </div>
+        <div class="philosophy-copy">
+          <p>
+            Skin care is not one-size-fits-all. The right starting point is a
+            clear understanding of your concerns, your expectations and the
+            treatment options available.
+          </p>
+          <p>
+            Pure Derma's clinic information describes a personalised approach
+            to aesthetic and dermatology care, with attention to patient
+            well-being, safety and the treatment journey.
+          </p>
+          <p>
+            Use your first conversation to ask questions, understand possible
+            options and decide on the next step with the clinic.
+          </p>
+          <span class="philosophy-signature">Care, with consideration.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey-section" id="journey">
+      <div class="container">
+        <div class="journey-header">
+          <p class="eyebrow">Your next step</p>
+          <h2 class="section-title">A simple path to a conversation.</h2>
+          <p class="section-copy">
+            Whether you already know which treatment you are interested in or
+            are still exploring, getting in touch is straightforward.
+          </p>
+        </div>
+
+        <div class="journey-steps">
+          <article class="journey-step">
+            <span>01</span>
+            <h3>Tell us what matters</h3>
+            <p>Share the skin concern, treatment area or goal you would like to discuss.</p>
+          </article>
+          <article class="journey-step">
+            <span>02</span>
+            <h3>Speak with the clinic</h3>
+            <p>Contact Pure Derma to ask about available treatments and consultation arrangements.</p>
+          </article>
+          <article class="journey-step">
+            <span>03</span>
+            <h3>Understand your options</h3>
+            <p>Discuss suitability, expectations and the next steps before deciding how to proceed.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="location-section" id="location">
+      <div class="container location-grid">
+        <div class="location-visual">
+          <img
+            src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=85"
+            alt="Contemporary, light-filled interior"
+            loading="lazy">
+        </div>
+        <div class="location-copy">
+          <p class="eyebrow">Visit Pure Derma</p>
+          <h2 class="section-title">Your clinic visit, made easier.</h2>
+          <p>
+            Find Pure Derma Clinic at Dubai Hills Mall. Contact the clinic
+            before visiting if you would like to confirm appointment details
+            or ask about a particular treatment.
+          </p>
+
+          <div class="location-details">
+            <div class="location-detail">
+              <strong>Address</strong>
+              <span>Dubai Hills Mall, First Floor (Storm Coaster Parking), Dubai, UAE</span>
+            </div>
+            <div class="location-detail">
+              <strong>Sun–Thu</strong>
+              <span>10:00 am – 10:00 pm</span>
+            </div>
+            <div class="location-detail">
+              <strong>Fri–Sat</strong>
+              <span>10:00 am – 12:00 am</span>
+            </div>
+            <div class="location-detail">
+              <strong>Telephone</strong>
+              <span><a href="tel:+97145797700">+971 4 579 7700</a></span>
+            </div>
+          </div>
+
+          <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&query=Pure+Derma+Clinic+Dubai+Hills+Mall" target="_blank" rel="noopener">Get directions <span class="button-arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+      <div class="container faq-grid">
+        <div>
+          <p class="eyebrow">A few helpful details</p>
+          <h2 class="section-title">Before you<br>get in touch.</h2>
+          <p class="section-copy">
+            Some quick answers to help you decide what to ask the clinic.
+            For treatment-specific advice, contact Pure Derma directly.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>Where is Pure Derma Clinic located?</summary>
+            <div class="faq-answer">
+              <p>Pure Derma Clinic is located on the first floor of Dubai Hills Mall, near Storm Coaster Parking, Dubai, UAE.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>What types of treatments does the clinic offer?</summary>
+            <div class="faq-answer">
+              <p>The clinic publishes dermatology, facial and laser treatment categories. Examples include Hydrafacial, Dermapen, mesotherapy, chemical peels, skin boosters, dermal fillers, microneedling, laser hair removal and tattoo removal.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>How can I ask whether a treatment is suitable for me?</summary>
+            <div class="faq-answer">
+              <p>Call the clinic or send a WhatsApp message to discuss your concern and ask about arranging a consultation. Treatment suitability should be assessed by an appropriate clinician.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>What are the clinic's opening hours?</summary>
+            <div class="faq-answer">
+              <p>Published hours are Sunday to Thursday, 10:00 am to 10:00 pm, and Friday and Saturday, 10:00 am to 12:00 am. Contact the clinic to confirm before travelling.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>How do I contact Pure Derma?</summary>
+            <div class="faq-answer">
+              <p>Call +971 4 579 7700, WhatsApp +971 50 418 5150 or email info@purederma.ae.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">Start a conversation</p>
+          <h2 class="section-title">Let's talk about your skin goals.</h2>
+          <p>
+            Tell the clinic what you would like to explore. You can also call
+            or WhatsApp directly if you prefer to speak with the team.
+          </p>
+
+          <div class="contact-links">
+            <a href="tel:+97145797700">Call +971 4 579 7700 ↗</a>
+            <a href="https://wa.me/971504185150" target="_blank" rel="noopener">WhatsApp +971 50 418 5150 ↗</a>
+            <a href="mailto:info@purederma.ae">info@purederma.ae ↗</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="enquiry-form">
+          <h3>Make an enquiry</h3>
+          <p>Share a few details and your email app will open with your enquiry prepared.</p>
+
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+
+            <div class="form-field">
+              <label for="phone">Phone number</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+            </div>
+
+            <div class="form-field full">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+
+            <div class="form-field full">
+              <label for="interest">What would you like to discuss?</label>
+              <select id="interest" name="interest" required>
+                <option value="">Choose a treatment area</option>
+                <option>Dermatology</option>
+                <option>Facial treatments</option>
+                <option>Laser treatments</option>
+                <option>Skin rejuvenation</option>
+                <option>Not sure yet — I would like guidance</option>
+              </select>
+            </div>
+
+            <div class="form-field full">
+              <label for="message">Your message</label>
+              <textarea id="message" name="message" placeholder="Briefly tell us what you would like to ask..." required></textarea>
+            </div>
+          </div>
+
+          <button class="button button-primary form-submit" type="submit">Prepare my enquiry <span class="button-arrow">↗</span></button>
+          <p class="form-note">
+            This form prepares an email addressed to info@purederma.ae.
+            It does not submit personal information to this demo webpage.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="#home">
+            <span class="brand-name">pure derma</span>
+            <span class="brand-subtitle">Dermatology · Aesthetics</span>
+          </a>
+          <p>
+            Dermatology, facial and laser treatment options at Dubai Hills Mall.
+            Contact the clinic to explore your next step.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#approach">Our approach</a>
+          <a href="#services">Treatments</a>
+          <a href="#journey">Your visit</a>
+          <a href="#location">Location</a>
+          <a href="#faq">FAQs</a>
+          <a href="#contact">Contact</a>
+          <a href="https://purederma.ae/our-team/">Our team</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Pure Derma Clinic. All rights reserved.</span>
+        <span>Dubai Hills Mall, Dubai, UAE</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-cta" aria-label="Quick contact actions">
+    <a class="button button-outline" href="tel:+97145797700">Call the clinic</a>
+    <a class="button button-primary" href="https://wa.me/971504185150" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+  <script>
+    (function () {
+      const menuButton = document.querySelector(".menu-toggle");
+      const navigation = document.querySelector(".main-nav");
+
+      if (menuButton && navigation) {
+        menuButton.addEventListener("click", function () {
+          const isOpen = navigation.classList.toggle("is-open");
+          menuButton.setAttribute("aria-expanded", String(isOpen));
+          menuButton.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+          menuButton.querySelector("span").textContent = isOpen ? "×" : "☰";
+          document.body.classList.toggle("menu-open", isOpen);
+        });
+
+        navigation.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            navigation.classList.remove("is-open");
+            menuButton.setAttribute("aria-expanded", "false");
+            menuButton.setAttribute("aria-label", "Open navigation");
+            menuButton.querySelector("span").textContent = "☰";
+            document.body.classList.remove("menu-open");
+          });
+        });
+
+        document.addEventListener("keydown", function (event) {
+          if (event.key === "Escape") {
+            navigation.classList.remove("is-open");
+            menuButton.setAttribute("aria-expanded", "false");
+            menuButton.setAttribute("aria-label", "Open navigation");
+            menuButton.querySelector("span").textContent = "☰";
+            document.body.classList.remove("menu-open");
+          }
+        });
+      }
+
+      const year = document.getElementById("year");
+      if (year) year.textContent = new Date().getFullYear();
+
+      const enquiryForm = document.getElementById("enquiry-form");
+      if (enquiryForm) {
+        enquiryForm.addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          if (!enquiryForm.reportValidity()) return;
+
+          const formData = new FormData(enquiryForm);
+          const subject = "Website enquiry — Pure Derma Clinic";
+          const body = [
+            "Hello Pure Derma Clinic,",
+            "",
+            "I would like to make an enquiry.",
+            "",
+            "Name: " + formData.get("name"),
+            "Phone: " + formData.get("phone"),
+            "Email: " + formData.get("email"),
+            "Treatment area: " + formData.get("interest"),
+            "",
+            "Message:",
+            formData.get("message"),
+            "",
+            "Thank you."
+          ].join("\n");
+
+          const mailto = "mailto:info@purederma.ae"
+            + "?subject=" + encodeURIComponent(subject)
+            + "&body=" + encodeURIComponent(body);
+
+          window.location.href = mailto;
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
